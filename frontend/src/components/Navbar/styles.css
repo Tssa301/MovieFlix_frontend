@@ -1,0 +1,31 @@
+.main-nav {
+  padding-left: 49px;
+  min-height: 68px;
+}
+
+.nav-logo-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: -0.015em;
+}
+
+.nav-login-logout {
+  height: 30px;
+  display:flex;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  align-items: center;
+  margin-right: 30px;;
+}
+
+.nav-login-logout a {
+  padding: 25px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: -0.015em;
+}
