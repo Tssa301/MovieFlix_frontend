@@ -1,11 +1,12 @@
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 const Navbar = () => {
   return (
     <nav className="navbar bg-primary main-nav">
-      <a href="link" className="nav-logo-text">
+      <Link to="/" className="nav-logo-text">
         <h4>MovieFlix</h4>
-      </a>
+      </Link>
 
       <div className="nav-login-logout">
         <a href="link">LOG OUT</a>
